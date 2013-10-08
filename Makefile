@@ -1,5 +1,6 @@
+OUTPUT=avalanche/talk/talk.html
 clean:
-	rm -f avalanche/talk/talk.html
+	rm -f $(OUTPUT)
 
 init:
 	virtualenv virtualenv
@@ -11,4 +12,4 @@ html:
 	( cd avalanche/talk && landslide presentation.cfg )
 
 deploy:
-	chromium-browser avalanche/talk/talk.html
+	chromium-browser $(OUTPUT)
