@@ -1,0 +1,8 @@
+digraph G {
+   "publish" -> "verify";
+   "verify" -> "run_integration_tests";
+   "run_integration_tests" -> "package";
+   "package" -> "run_unit_tests";
+   "run_unit_tests" -> "compile_sources";
+   "compile_sources" -> "prepare";
+ }
