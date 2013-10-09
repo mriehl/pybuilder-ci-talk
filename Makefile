@@ -3,13 +3,13 @@ clean:
 	rm -f $(OUTPUT)
 
 init:
-	virtualenv virtualenv
+	virtualenv virtualenv --clear
 	. virtualenv/bin/activate
 	pip install jinja2 pygments landslide
 
-html:
+html: init
 	. virtualenv/bin/activate
 	( cd avalanche/talk && landslide presentation.cfg )
 
-deploy:
+deploy: html
 	chromium-browser $(OUTPUT)
