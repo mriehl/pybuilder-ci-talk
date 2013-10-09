@@ -5,7 +5,7 @@ Usage
 
 make deploy
 
-If not using chromium:
+## If not using chromium:
 
 make html
 
