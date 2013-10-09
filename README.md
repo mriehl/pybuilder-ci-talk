@@ -3,6 +3,10 @@ pybuilder-ci-talk
 
 Usage
 
-make init
-make html
 make deploy
+
+If not using chromium:
+
+make html
+
+<browser> avalanche/talk/talk.html
