@@ -9,7 +9,7 @@
 ---
 
 # Continuous integration
-## todo image here
+<img src="you-broke-the-build.png"</>
 
 ---
 

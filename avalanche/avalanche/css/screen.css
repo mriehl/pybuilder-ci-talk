@@ -12,7 +12,7 @@ div.presentation, div.slide {
 }
 
 div.slide h1, div.slide h2, div.slide h3, div.slide h4, div.slide h5, div.slide h6 {
-  color: navy;
+  color: black;
   font-weight: normal;
 }
 
@@ -106,12 +106,12 @@ div.titleslide h1 { padding-top: 140px; font-size: 80px; font-weight: bold;}
 
 /* imageslide: covering a whole slide with an image */
 div.slides div.imageslide {margin: 0; width: 1024px; height: 768px;}
-div.imageslide img { 
-  position: absolute; 
-  top: 0; left: 0; 
-  width: 1024px; 
+div.imageslide img {
+  position: absolute;
+  top: 0; left: 0;
+  width: 1024px;
   max-width: 1024px; max-height: 768px;
-  z-index: 0; 
+  z-index: 0;
 }
 
 div.imageslide h1 { position: absolute; z-index: 3; left: 40px; top: 0; }
@@ -296,7 +296,7 @@ body.expose div.slides {
 body.expose div.slide {
   display                 : block;
   width                   : 864px;
-  height                  : 688px;  
+  height                  : 688px;
   float                   : left;
   position                : relative;
   left                    : auto !important;
@@ -307,7 +307,7 @@ body.expose div.slide {
   padding                 : 10px !important;
   -webkit-transition      : none;
   -moz-transition         : none;
-  -o-transition           : none;  
+  -o-transition           : none;
   -moz-transform          : scale(.30, .30);
   -moz-transform-origin   : 0 0;
   -webkit-transform       : scale(.30, .30);
