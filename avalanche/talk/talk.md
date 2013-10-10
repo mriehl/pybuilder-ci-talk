@@ -8,6 +8,32 @@
 
 ---
 
+## Maximilien Riehl, Marcel Wolf
+  - Working for @YadtProject
+  - Sponsored by ImmobilienScout24
+  - developing infrastructure as code (TDD, CI, clean code, ...)
+  - Agile +  DevOps enthusiasts
+
+---
+
+## Marcel Wolf
+
+  - operations guy gone developer
+    * started out as network / virtualization admin
+    * then application manager (ops/dev consulting + youtube fun)
+    * now a system developer
+
+---
+
+## Maximilien Riehl
+
+  - system developer with QA background
+  - master student in computer science
+  - https://github.com/mriehl
+
+
+---
+
 # Continuous integration
 <img src="you-broke-the-build.png"</>
 
