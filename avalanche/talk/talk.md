@@ -5,6 +5,7 @@
 ---
 
 # About us
+<img src="about-us.jpg"</>
 
 ---
 
@@ -18,10 +19,10 @@
 
 ## Marcel Wolf
 
-  - operations guy gone developer
-    * started out as network / virtualization admin
-    * then application manager (ops/dev consulting + youtube fun)
-    * now a system developer
+  - operations guy become developer
+    * started out as System network admin
+    * then application manager (ops/dev consulting)
+    * now a system developer (python)
 
 ---
 
@@ -46,6 +47,8 @@
 # Claim
  * Many awesome tools but they do not compose
 
+<img src="tools.jpg"</>
+
 ---
 
 # Working example
@@ -59,24 +62,34 @@
 
 ---
 
-## Requirements for CI
+## Requirements for CI (1/2)
 
   - Break build when...
+
     * coverage
 < 100%
     * unit / integration tests fail
     * linter finds problems
+
+---
+
+## Requirements for CI (2/2)
+
   - Package only when all previous steps complete
   - Orchestrate
+
     * install dependencies before running stuff
     * run unit tests before integration tests
     * etc...
+
 ---
 
 ## Approaches
 ### DIY
-### Pybuilder
+    * fit everything together (by our own)
 
+### Pybuilder
+    * fits everythin together (for you)
 ---
 
 # DIY
