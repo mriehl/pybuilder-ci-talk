@@ -243,3 +243,12 @@ pyb publish
     <img src="../../deps.png"/>
 
 ---
+
+Vielen Dank für eure Aufmerksamkeit
+
+<img src="logo-with-text-256.jpg"/>
+
+https://github.com/pybuilder/pybuilder
+
+- email: maximilien.riehl@immobilienscout24.de
+- email: marcel.wolf@immobilienscout24.de
