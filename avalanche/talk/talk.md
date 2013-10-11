@@ -86,10 +86,13 @@
 
 ## Approaches
 ### DIY
-    * fit everything together (by our own)
+  * fit everything together
+    - on your own
+    - for your specific use-case
 
 ### Pybuilder
-    * fits everythin together (for you)
+  * fits everything together for you
+    - more time to write real code!
 ---
 
 # DIY
@@ -146,9 +149,8 @@ Or use API?
 ---
 
 #### Issues
-  * Non-generic
+  * Non-genericity
   * Reusability
-    - "I have solved this problem before...?"
   * Complexity
   * Run sub-parts (only coverage / lint)?
 
@@ -251,5 +253,5 @@ Questions?
 
 https://github.com/pybuilder/pybuilder
 
-- email: max@riehl.io
-- email: marcel.wolf@immobilienscout24.de
+- max@riehl.io
+- marcel.wolf@immobilienscout24.de
