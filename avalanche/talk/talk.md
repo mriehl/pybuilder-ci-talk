@@ -9,7 +9,7 @@
 
 ---
 
-## Maximilien Riehl, Marcel Wolf
+## About us
   - Working for @YadtProject
   - Sponsored by ImmobilienScout24
   - developing infrastructure as code (TDD, CI, clean code, ...)
@@ -75,9 +75,8 @@
 
 ## Requirements for CI (2/2)
 
-  - Package only when all previous steps complete
   - Orchestrate
-
+    * Package only when all previous steps complete
     * install dependencies before running stuff
     * run unit tests before integration tests
     * etc...
@@ -136,6 +135,7 @@ Or use API?
 #### Orchestration
 
     !bash
+    #!/bin/bash
     set -e -E
     pip install -r REQUIREMENTS.txt
     ./setup.py test
@@ -164,9 +164,9 @@ Or use API?
 
 #### Basics
 
+ * It's python!
  * Plugin-based
- * Central build description
- * It's python! (`build.py`)
+ * Central build description (`build.py`)
 
 ---
 
