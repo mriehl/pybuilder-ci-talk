@@ -19,10 +19,10 @@
 
 ## Marcel Wolf
 
-  - operations guy become developer
-    * started out as System network admin
+  - operations guy gone dev
+    * started out as system/network admin
     * then application manager (ops/dev consulting)
-    * now a system developer (python)
+    * now a system developer
 
 ---
 
