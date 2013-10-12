@@ -96,6 +96,8 @@
 
 # DIY
 
+<img src="tim-toolman-taylor.jpeg"</>
+
 .fx: titleslide
 
 ---
@@ -170,7 +172,7 @@ Or use API?
 
 ---
 
-#### Project data
+#### Project data (build.py)
 
     !python
     name = 'pycopter'
@@ -179,17 +181,18 @@ Or use API?
     authors = [Author('pyninja', 'ninja@example.org')]
     summary = 'Example project'
     version = '1.3.37'
+    ...
 
 ---
 
-#### Adding plugins
+#### Adding plugins (build.py)
 
     !python
     use_plugin('python.coverage')
     use_plugin('python.distutils')
     use_plugin('python.unittest')
     use_plugin('python.flake8')
-
+    ...
 ---
 
 #### Configuration
@@ -200,14 +203,31 @@ Or use API?
         project.set_property("coverage_break_build", True)
         project.set_property("coverage_threshold_warn",99)
         project.set_property("flake8_break_build", True)
+    ...
+---
+
+###  Not build.py
+
+    !bash
+    #!/bin/bash
+        coverage run py.test src
+        COVERAGE=$(coverage report | tail -n 1 | ...
+        echo "Coverage is $COVERAGE%"
+        if [ $COVERAGE -lt 100 ]; then
+          echo "Coverage sucks, breaking the build!" >
+    &1
+          exit 1
+        fi
 
 ---
 
-#### Dependencies
+
+#### Dependencies (build.py)
 
     !python
     project.build_depends_on("pytest")
     project.depends_on("ultrajson")
+    ...
 
 ---
 
