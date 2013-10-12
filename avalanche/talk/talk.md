@@ -1,4 +1,6 @@
+
 # Continuous building with pybuilder
+<img src="logo-256.jpg"</>
 
 .fx: titleslide
 
