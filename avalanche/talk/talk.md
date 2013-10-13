@@ -130,7 +130,8 @@
         def run(self):
             import subprocess
             subprocess.call(['coverage', 'run'])
-            subprocess.call(['coverage', 'html'])
+            ...
+            subprocess.call(['coverage', 'report'])
 
 Or use API?
 
@@ -208,7 +209,7 @@ Or use API?
     ...
 ---
 
-###  Not build.py
+###  Without build.py
 
     !bash
     #!/bin/bash
