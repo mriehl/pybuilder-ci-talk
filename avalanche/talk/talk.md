@@ -264,8 +264,11 @@ Or use API?
 
 ---
 
-pyb publish
-    <img src="../../deps.png"/>
+pyb analyze
+
+  * runs analyze tasks, but also...
+
+<img src="../../deps.png"/>
 
 ---
 
