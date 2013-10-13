@@ -38,7 +38,7 @@
 ---
 
 # Continuous integration
-<img src="you-broke-the-build.png"</>
+<img src="you-broke-the-build.png"/>
 
 ---
 
@@ -266,6 +266,15 @@ Or use API?
 
 pyb publish
     <img src="../../deps.png"/>
+
+---
+
+# Getting started
+
+<img src="clippy.png" style="float: right;"/>
+
+  * Visit http://pybuilder.github.io
+
 
 ---
 
