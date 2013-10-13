@@ -13,3 +13,7 @@ html: init
 
 deploy: html
 	chromium-browser $(OUTPUT)
+
+rebuild-graph:
+	dot -Tpng deps.dot -o deps.png
+
