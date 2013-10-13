@@ -12,7 +12,7 @@
 ---
 
 ## About us
-  - Working for @YadtProject
+  - Working on @YadtProject
   - Sponsored by ImmobilienScout24
   - developing infrastructure as code (TDD, CI, clean code, ...)
   - Agile +  DevOps enthusiasts
