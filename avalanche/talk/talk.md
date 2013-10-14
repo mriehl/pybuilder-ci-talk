@@ -170,7 +170,9 @@ Or use API?
 #### Basics
 
  * It's python!
+ * command line interface
  * Plugin-based
+ * Project structure
  * Central build description (`build.py`)
 
 ---
