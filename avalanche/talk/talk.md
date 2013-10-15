@@ -1,13 +1,13 @@
 
 # Continuous building with pybuilder
-<img src="logo-256.jpg"</>
+<img src="logo-256.jpg"/>
 
 .fx: titleslide
 
 ---
 
 # About us
-<img src="about-us.jpg"</>
+<img src="about-us.jpg"/>
 
 ---
 
@@ -49,7 +49,7 @@
 # Claim
  * Many awesome tools but they do not compose
 
-<img src="tools.jpg"</>
+<img src="tools.jpg"/>
 
 ---
 
@@ -98,7 +98,7 @@
 
 # DIY
 
-<img src="tim-toolman-taylor.jpeg"</>
+<img src="tim-toolman-taylor.jpeg"/>
 
 .fx: titleslide
 
@@ -154,10 +154,22 @@ Or use API?
 ---
 
 #### Issues
-  * Non-genericity
-  * Reusability
   * Complexity
-  * Run sub-parts (only coverage / lint)?
+  * Non-genericity
+
+---
+
+#### Non-genericity
+  * How about changing a test framework?
+  * What would happen if setuptools was dropped?
+
+---
+
+#### Issues
+  * Complexity
+  * Non-genericity
+  * Non-reusability
+  * Run sub-parts?
 
 ---
 
