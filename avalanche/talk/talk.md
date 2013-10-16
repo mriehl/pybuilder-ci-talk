@@ -1,6 +1,5 @@
 
 # Continuous building with pybuilder
-<img src="logo-256.jpg"/>
 
 .fx: titleslide
 
@@ -12,6 +11,8 @@
 ---
 
 ## About us
+<img src="logo-256.jpg" style="float: right;"/>
+
   - Working on @YadtProject
   - Sponsored by ImmobilienScout24
   - developing infrastructure as code (TDD, CI, clean code, ...)
