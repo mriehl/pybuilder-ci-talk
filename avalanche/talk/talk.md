@@ -142,7 +142,7 @@ Or use API?
 
     !bash
     #!/bin/bash
-    set -e -E
+    set -e
     pip install -r REQUIREMENTS.txt
     ./setup.py test
     ./setup.py integrationtest
