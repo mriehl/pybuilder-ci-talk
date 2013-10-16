@@ -167,8 +167,8 @@ Or use API?
 ---
 
 #### Issues
-  * Complexity
-  * Non-genericity
+  * <span style="color: lightgrey;">Complexity</span>
+  * <span style="color: lightgrey;">Non-genericity</span>
   * Non-reusability
   * Run sub-parts?
 
