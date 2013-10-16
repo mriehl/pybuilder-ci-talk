@@ -220,7 +220,10 @@ Or use API?
     def set_properties(project):
         project.set_property("coverage_break_build", True)
         project.set_property("coverage_threshold_warn",99)
-        project.set_property("flake8_break_build", True)
+
+        # is the default value
+        project.set_property("dir_source_main_python",
+                             "src/main/python")
     ...
 ---
 

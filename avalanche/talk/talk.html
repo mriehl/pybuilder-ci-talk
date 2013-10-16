@@ -2261,7 +2261,10 @@ pip install -r REQUIREMENTS.txt
 <span class="k">def</span> <span class="nf">set_properties</span><span class="p">(</span><span class="n">project</span><span class="p">):</span>
     <span class="n">project</span><span class="o">.</span><span class="n">set_property</span><span class="p">(</span><span class="s">&quot;coverage_break_build&quot;</span><span class="p">,</span> <span class="bp">True</span><span class="p">)</span>
     <span class="n">project</span><span class="o">.</span><span class="n">set_property</span><span class="p">(</span><span class="s">&quot;coverage_threshold_warn&quot;</span><span class="p">,</span><span class="mi">99</span><span class="p">)</span>
-    <span class="n">project</span><span class="o">.</span><span class="n">set_property</span><span class="p">(</span><span class="s">&quot;flake8_break_build&quot;</span><span class="p">,</span> <span class="bp">True</span><span class="p">)</span>
+
+    <span class="c"># is the default value</span>
+    <span class="n">project</span><span class="o">.</span><span class="n">set_property</span><span class="p">(</span><span class="s">&quot;dir_source_main_python&quot;</span><span class="p">,</span>
+                         <span class="s">&quot;src/main/python&quot;</span><span class="p">)</span>
 <span class="o">...</span>
 </pre></div>
 </section>
