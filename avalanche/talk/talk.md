@@ -158,6 +158,8 @@ Or use API?
   * Complexity
   * Non-genericity
 
+<img src="likeaboss.jpg"/>
+
 ---
 
 #### Non-genericity
