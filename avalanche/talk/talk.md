@@ -227,23 +227,8 @@ Or use API?
         project.set_property("dir_source_main_python",
                              "src/main/python")
     ...
----
-
-###  Without build.py
-
-    !bash
-    #!/bin/bash
-        coverage run py.test src
-        COVERAGE=$(coverage report | tail -n 1 | ...
-        echo "Coverage is $COVERAGE%"
-        if [ $COVERAGE -lt 100 ]; then
-          echo "Coverage sucks, breaking the build!" >
-    &1
-          exit 1
-        fi
 
 ---
-
 
 #### Dependencies (build.py)
 
