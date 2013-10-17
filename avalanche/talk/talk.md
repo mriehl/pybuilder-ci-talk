@@ -297,6 +297,7 @@ pyb analyze
 <img src="clippy.png" style="float: right;"/>
 
   * Visit http://pybuilder.github.io
+  * Source, PRs and issues at https://github.com/pybuilder
 
 
 ---
